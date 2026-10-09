@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>José Santos | Software Developer</title>
+  <meta name="description" content="Portfolio of José Santos, a Computer Science graduate building practical backend software and exploring Linux, Docker and cybersecurity. Based in Belgium.">
+  <meta name="theme-color" content="#0c0e0d">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#home">~/jose-santos</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="loc">Based in Belgium</p>
+          <h1>José Santos</h1>
+          <p class="title">Software Developer | Backend &amp; Linux Enthusiast<span class="cursor" aria-hidden="true"></span></p>
+          <p class="intro">I'm a Computer Science graduate who enjoys building practical software, working with databases and exploring Linux and infrastructure. I'm currently strengthening my backend development skills while exploring the intersection between software engineering and cybersecurity.</p>
+          <div class="actions">
+            <a class="btn primary" href="#projects">View My Projects</a>
+            <a class="btn" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="term" id="terminal" aria-label="Simulated portfolio terminal">
+          <div class="term-bar">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="term-title">acutis@portfolio: ~</span>
+            <span class="sim">simulated</span>
+          </div>
+          <div class="term-body" id="term-body" role="log" aria-live="polite">
+            <noscript><p>The interactive terminal needs JavaScript. All information is available in the sections below.</p></noscript>
+          </div>
+          <form class="term-form" id="term-form" autocomplete="off">
+            <label for="term-input" class="prompt">acutis@portfolio:~$</label>
+            <input id="term-input" type="text" spellcheck="false" autocapitalize="off" autocorrect="off" enterkeyhint="send" aria-describedby="term-note">
+          </form>
+          <p class="term-note" id="term-note">Simulated terminal: it only runs the portfolio commands listed in <code>help</code>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap narrow">
+        <h2><span>$</span> about</h2>
+        <p>José graduated in Informatics Engineering in 2020. His first software development experience was an iOS internship in Portugal. He subsequently worked in construction and industrial production while maintaining his interest in programming and developing personal projects.</p>
+        <p>He is now focused on strengthening his software development portfolio and building practical experience with backend applications, databases, Linux and Docker.</p>
+        <p>He is interested in backend development, infrastructure and cybersecurity, particularly where programming and systems knowledge overlap.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <h2><span>$</span> skills</h2>
+        <div class="grid">
+          <div class="panel">
+            <h3>Programming languages</h3>
+            <ul class="tags"><li>Python</li><li>Java</li><li>JavaScript</li><li>C</li><li>C++</li><li>C#</li><li>Kotlin</li><li>Swift</li><li>Objective-C</li><li>Bash</li></ul>
+          </div>
+          <div class="panel">
+            <h3>Backend and web development</h3>
+            <ul class="tags"><li>Flask</li><li>HTML5</li><li>CSS3</li><li>Bootstrap</li><li>REST API concepts</li><li>SQL and relational databases</li></ul>
+          </div>
+          <div class="panel">
+            <h3>Tools and systems</h3>
+            <ul class="tags"><li>Git and GitHub</li><li>Linux</li><li>Docker</li><li>SQLite</li><li>MySQL</li><li>Windows</li><li>macOS</li></ul>
+          </div>
+          <div class="panel learning">
+            <h3>Areas of interest and ongoing learning</h3>
+            <ul class="tags"><li>Backend engineering</li><li>Networking fundamentals</li><li>Linux administration</li><li>Containerization</li><li>Cybersecurity</li><li>Security monitoring and log analysis</li></ul>
+          </div>
+        </div>
+        <p class="note">Skills in the first three groups come from coursework, work or personal projects. The last group lists topics I am currently studying, not areas of professional expertise.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <h2><span>$</span> projects</h2>
+        <div class="grid">
+          <article class="panel project">
+            <div class="head"><h3>Battery Manager</h3><span class="status dev">In Development</span></div>
+            <p>A personal application designed to manage batteries used in my equipment. The project is an opportunity to apply backend development, object-oriented programming, database design and deployment practices to a practical problem. It is intended to run on a home server.</p>
+            <p class="small"><strong>Planned features (not yet implemented):</strong> battery records, capacity and voltage information, maintenance history and a REST API.</p>
+            <ul class="tags"><li>Python</li><li>Flask</li><li>SQLite</li><li>Docker</li><li>Linux</li></ul>
+            <p class="links"><a href="#" data-repo-placeholder>GitHub repository: coming soon</a></p>
+          </article>
+
+          <article class="panel project">
+            <div class="head"><h3>Paintball Centro Website</h3><span class="status client">Client Project</span></div>
+            <p>Contributing to the development and maintenance of a website for a local paintball business. Working with frontend technologies and deploying and maintaining the website on a Linux server.</p>
+            <ul class="tags"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Bootstrap</li><li>Linux</li></ul>
+            <p class="links"><a href="https://paintballcentro.pt/" target="_blank" rel="noopener noreferrer">Official website: paintballcentro.pt</a></p>
+          </article>
+
+          <article class="panel project">
+            <div class="head"><h3>Python Web Automation Tool</h3><span class="status exp">Experimental Project</span></div>
+            <p>A Python utility exploring HTML parsing and automated inspection of web pages using BeautifulSoup. The project provides an opportunity to practise Python scripting, HTTP requests and structured HTML extraction.</p>
+            <ul class="tags"><li>Python</li><li>BeautifulSoup</li><li>Web automation</li></ul>
+            <p class="links"><a href="#" data-repo-placeholder>GitHub repository: coming soon</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="wrap narrow">
+        <h2><span>$</span> experience</h2>
+        <ol class="timeline">
+          <li>
+            <h3>Production Worker</h3>
+            <p class="meta">Anda NV — Boortmeerbeek, Belgium · August 2024 – Present</p>
+            <p>Industrial experience focused on operational efficiency, organization and quality.</p>
+          </li>
+          <li>
+            <h3>Construction Assistant</h3>
+            <p class="meta">Vanhoeyveld — Boortmeerbeek, Belgium · October 2020 – August 2024</p>
+            <p>Practical experience in construction projects, developing teamwork, reliability and responsibility.</p>
+          </li>
+          <li>
+            <h3>iOS Developer Intern</h3>
+            <p class="meta">IT Sector — Porto, Portugal · March 2020 – July 2020</p>
+            <ul>
+              <li>Worked within a mobile development team using Scrum.</li>
+              <li>Developed iOS application features using Swift and Objective-C.</li>
+              <li>Built a reusable UI components framework for mobile applications.</li>
+              <li>Used Git and Xcode in the development workflow.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="wrap narrow">
+        <h2><span>$</span> education</h2>
+        <h3>Bachelor's Degree in Informatics Engineering — Application Development</h3>
+        <p class="meta">ISEC (Coimbra Institute of Engineering), Portugal · September 2016 – July 2020</p>
+        <p>Relevant academic topics:</p>
+        <ul class="tags"><li>C and C++ programming</li><li>C# and Java</li><li>Object-oriented programming</li><li>Web development</li><li>SQL and relational databases</li><li>Operating systems</li></ul>
+
+        <h3>Certifications and courses</h3>
+        <ul class="plain">
+          <li>Complete Linux Training Course — Udemy, 42 hours</li>
+          <li>Responsive Web Design — freeCodeCamp</li>
+          <li>JavaScript Algorithms and Data Structures — freeCodeCamp</li>
+          <li>Back End Development and APIs — freeCodeCamp</li>
+        </ul>
+
+        <h3>Languages</h3>
+        <ul class="plain">
+          <li>Portuguese — Native</li>
+          <li>English — Intermediate (B2, self-reported)</li>
+          <li>Dutch — Beginner (A1, self-reported)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap narrow">
+        <h2><span>$</span> contact</h2>
+        <ul class="plain contact">
+          <li>Email: <a href="mailto:eng.josesantos97@gmail.com">eng.josesantos97@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/jose-santos97" target="_blank" rel="noopener noreferrer">linkedin.com/in/jose-santos97</a></li>
+          <li>GitHub: <a href="https://github.com/engJoseSantos" target="_blank" rel="noopener noreferrer">github.com/engJoseSantos</a></li>
+          <li>Location: Mechelen, Belgium</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap"><p>© <span id="year">2026</span> José Santos. Built with plain HTML, CSS and JavaScript.</p></div></footer>
+</body>
+</html>
